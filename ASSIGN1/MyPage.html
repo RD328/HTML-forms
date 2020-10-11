@@ -1,0 +1,118 @@
+<html>
+<head>
+<title> Page Title </title>
+</head>
+<body>
+
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph.</p>
+    <!--<a href="MyPage.html">Click here</a> -->
+    <br>
+    <a href="www.google.com">Google Link</a>
+    <br>
+    <p>Coffee...</p>
+    <br>
+    <a href="#Coffee...">This is a link to text within the same page</a>
+    <!--put a #, when you want to link to content within the same page-->
+    <br>
+    <img src="download.jpg" alt="width" />
+    <br>
+    <table width:40% border="1" bgcolor=#90C2FF>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>R</td>
+            <td>D</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td colspan="3">Anon</td>
+        </tr>
+        <!--Use colspan to span a cell over multiple cols-->
+    </table>
+
+    <br>
+    <table width:40% border="1" bgcolor=#6DECCC>
+
+        <tr>
+            <th id="uid">User Id</th>
+            <th id="name">User Name</th>
+            <th id="address">Address</th>
+            <th id="phone">Phone No</th>
+        </tr>
+        <tr>
+            <td headers="uid">U001</td>
+            <td headers="name">Sudha Chandan</td>
+            <td headers="address" ,"name">99,J.C.Bose Road,kal-125042</td>
+            <td headers="phone">5612445470</td>
+        </tr>
+        <!--To relate a cell to a header, use header=-->
+    </table>
+
+
+    <h2>HTML Forms</h2>
+
+    <form action="/action_page.php">
+        <!--action: attribute, after clicking on submit, what action is to be taken, that is written in php-->
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h3>Radio Buttons</h3>
+
+    <form action="/action_page.php">
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label> <br>
+        <input type="submit" value="Submit gender">
+    </form>
+
+    <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+    <h4>Checkboxes</h4>
+    <p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
+
+    <form action="/action_page.php">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!--<ol type="a">
+        <li>Beans</li>
+        <li>Machine</li>
+    </ol>
+    <br>
+    <ol type="1">
+        <li>Beans</li>
+        <li>Machine</li>
+    </ol>
+    <br>
+    <ul type="circle">
+        <li>Beans</li>
+        <li>Machine</li>
+    </ul>-->
+</body>
+</html>
+
+
+
+
